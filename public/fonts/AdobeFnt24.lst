@@ -1,0 +1,116 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AbhayaLibre-ExtraBold
+FamilyName:Abhaya Libre ExtraBold
+StyleName:Regular
+MenuName:Abhaya Libre ExtraBold
+StyleBits:0
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Abhaya Libre ExtraBold
+WritingScript:Roman
+OutlineFileName:/Users/roland74/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–SchweizerischeEvangelischeAllianzSEA/Allianzgebetswoche - Dokumente/AGW 2026/SEA/Gebetsbroschüre/250912_Gebetsbroschüre_AGW_26 Ordner/Document fonts/AbhayaLibre-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:535456
+FileModTime:494200800
+NameArray:0,Mac,4,Abhaya Libre ExtraBold
+NameArray:0,Win,1,Abhaya Libre ExtraBold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/roland74/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–SchweizerischeEvangelischeAllianzSEA/Allianzgebetswoche - Dokumente/AGW 2026/SEA/Gebetsbroschüre/250912_Gebetsbroschüre_AGW_26 Ordner/Document fonts/AdobeFnt24.lst
+FileLength:3048
+FileModTime:779359121
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Braisetto-Regular
+FamilyName:Braisetto
+StyleName:Regular
+MenuName:Braisetto
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Braisetto Regular
+WritingScript:Roman
+OutlineFileName:/Users/roland74/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–SchweizerischeEvangelischeAllianzSEA/Allianzgebetswoche - Dokumente/AGW 2026/SEA/Gebetsbroschüre/250912_Gebetsbroschüre_AGW_26 Ordner/Document fonts/Braisetto-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:180092
+FileModTime:744725676
+NameArray:0,Mac,4,Braisetto Regular
+NameArray:0,Win,1,Braisetto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Lust-Regular
+FamilyName:Lust
+StyleName:Regular
+MenuName:Lust
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Lust Regular
+WritingScript:Roman
+OutlineFileName:/Users/roland74/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–SchweizerischeEvangelischeAllianzSEA/Allianzgebetswoche - Dokumente/AGW 2026/SEA/Gebetsbroschüre/250912_Gebetsbroschüre_AGW_26 Ordner/Document fonts/Lust-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:95156
+FileModTime:745133736
+NameArray:0,Mac,4,Lust Regular
+NameArray:0,Win,1,Lust
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NunitoSans-12ptExtraLight
+FamilyName:Nunito Sans
+StyleName:12pt ExtraLight
+MenuName:Nunito Sans 12pt ExtraLight
+FamilyPrefix:NunitoSans
+StyleBits:0
+WeightClass:200
+WidthClass:5
+AngleClass:0
+FullName:Nunito Sans 12pt ExtraLight
+WritingScript:Roman
+OutlineFileName:/Users/roland74/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–SchweizerischeEvangelischeAllianzSEA/Allianzgebetswoche - Dokumente/AGW 2026/SEA/Gebetsbroschüre/250912_Gebetsbroschüre_AGW_26 Ordner/Document fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:TrueTypeVariableFont
+FileLength:569372
+FileModTime:747184280
+NameArray:0,Win,1,Nunito Sans 12pt ExtraLight
+NameArray:0,Win,16,Nunito Sans
+%EndFont
+
