@@ -2,25 +2,25 @@
 
 This file collects actionable tasks we discussed in the chat and a couple of extra items you asked to add.
 
-- [x] Familiarize with Astro template
+## To-Do List
 
-  - Read `README.md`, scan `package.json`, `astro.config.mjs`, `src/content/config.ts`, `src/layouts/BaseLayout.astro`, and `src/components/Global/*`.
+- [ ] Structure of page according to PDF until AGW events
 
-- [x] Start dev server locally
+  - Create schedule layout or event-series page aggregating items with the Allianz tag/series.
 
-  - Install deps and run: `npm install` then `npm run dev` (local port 4321).
+- [ ] Update fonts and colors to align better with Evangelische Allianz in Deutschland e.V. branding.
 
-- [x] Inspect "events" mechanism
+  - fonts: OfficinaSerITCStd / OfficinaSansITCStd
 
-  - Review `src/content/config.ts` (events schema), `src/Sections/EventList.astro`, `src/pages/events/index.astro`, and `src/pages/events/[slug].astro`.
+- [ ] Plan remaining elements
 
-- [x] Define structure for Allianzgebetswoche events
+  - Add initial `src/content/` files: events, siteInfo (e.g., `office-hours`), probably more.
 
-  - Decide series vs single-day entries. Create sample markdown in `src/content/events/` (e.g., `allianzgebetswoche-2026-day-1.md`). Consider a `series` field or `tags: ["allianzgebetswoche"]`.
+- [ ] Questions to clarify with customer
 
-- [ ] delete unnecessary pages
-
-- [ ] "Customization" checklist (see README.md)
+  - Confirm content priority from `EAH Webseite Planung.pdf`, logo/hero image sources and formats, registration/payment requirements, timezone/recurrence rules, and localization needs.
+  - Localization: will the site be multi-lingual? If so we should plan content file naming and routing.
+  - Logo, Hero Image
 
 - [ ] Logo: gather & add to site
 
@@ -30,17 +30,7 @@ This file collects actionable tasks we discussed in the chat and a couple of ext
 
   - Add optimized hero image to `public/uploads/` and wire it into `src/Sections/HeroSection.astro` or `src/pages/index.astro`.
 
-- [ ] Headline text
-
-  - Define primary headline/subhead and update `HeroSection.astro` and `Seo.astro` props.
-
-- [ ] Structure for Allianzgebetswoche events (schedule)
-
-  - Create schedule layout or event-series page aggregating items with the Allianz tag/series.
-
-- [ ] Plan remaining elements
-
-  - Add initial `src/content/` files: events, siteInfo (e.g., `office-hours`), probably more.
+- [ ] "Customization" checklist (see README.md)
 
 - [ ] Accessibility, SEO & meta checks
 
@@ -64,19 +54,40 @@ This file collects actionable tasks we discussed in the chat and a couple of ext
 
   - Investigate the register button on event cards/pages; fix onClick, link target, or form submission behavior.
 
-- [ ] Questions to clarify with customer
-
-  - Confirm content priority from `EAH Webseite Planung.pdf`, logo/hero image sources and formats, registration/payment requirements, timezone/recurrence rules, and localization needs.
-
 - [ ] Timezones and date display: confirm display format and timezone handling for event dates in the UI.
-
-- [ ] Localization: will the site be multi-lingual? If so we should plan content file naming and routing.
 
 - [ ] Update robots.txt to point to correct sitemap location.
 
-- [ ] Update fonts and colors to align better with Evangelische Allianz in Deutschland e.V. branding.
+- [ ] Hero image in event slug pages
 
-  - fonts: OfficinaSerITCStd / OfficinaSansITCStd
+  - change to using Evangelische Allianz branding image
+  - see <PostLayout.astro>
+
+## Done
+
+- [x] Familiarize with Astro template
+
+  - Read `README.md`, scan `package.json`, `astro.config.mjs`, `src/content/config.ts`, `src/layouts/BaseLayout.astro`, and `src/components/Global/*`.
+
+- [x] Start dev server locally
+
+  - Install deps and run: `npm install` then `npm run dev` (local port 4321).
+
+- [x] Inspect "events" mechanism
+
+  - Review `src/content/config.ts` (events schema), `src/Sections/EventList.astro`, `src/pages/events/index.astro`, and `src/pages/events/[slug].astro`.
+
+- [x] Define structure for Allianzgebetswoche events
+
+  - Decide series vs single-day entries. Create sample markdown in `src/content/events/` (e.g., `allianzgebetswoche-2026-day-1.md`). Consider a `series` field or `tags: ["allianzgebetswoche"]`.
+
+- [x] delete unnecessary pages
+
+  - to keep: Home, Events ?, Giving ?, Staff ?, Contact ?, About Us ?, Ministries ? (Jugend + Allianzgebetswoche)
+
+- [x] Headline text
+
+  - Define primary headline/subhead and update `HeroSection.astro` and `Seo.astro` props.
 
 ---
 

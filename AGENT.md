@@ -3,10 +3,10 @@
 This is an Astro-based static site starter tailored for church websites. Keep instructions short and action-oriented; reference these files and patterns when making edits.
 
 - Framework: Astro (see `package.json`) with Tailwind CSS (`@astrojs/tailwind` in `astro.config.mjs`). Use Node 18+. Dev server: `npm run dev` (default port noted in README: <http://localhost:4321>).
-- Content model: Astro Content Collections defined in `src/content/config.ts`. Collections: `staff`, `events`, `sermons`, `ministries`, `blog`, `siteInfo`. Follow Zod schemas in that file exactly (image fields expect `/uploads/...` prefixes).
+- Content model: Astro Content Collections defined in `src/content/config.ts`. Collections: `staff`, `events`, `ministries`, `siteInfo`. Follow Zod schemas in that file exactly (image fields expect `/uploads/...` prefixes).
 - Content location: `src/content/*` — add Markdown files with frontmatter matching the schemas. Example patterns are in `README.md` and enforced by `src/content/config.ts` (e.g., staff images must start with `/uploads/staff/`). Use `draft: true` to hide drafts.
 
-- Routing & pages: Pages live in `src/pages/`. Dynamic routes use Astro params (e.g. `src/pages/blog/[slug].astro`, `src/pages/sermons/[slug].astro`). When creating new content, ensure generated slugs match the filename or frontmatter `slug` field.
+- Routing & pages: Pages live in `src/pages/`. Dynamic routes use Astro params (e.g. `src/pages/events/[slug].astro`, `src/pages/ministries/[slug].astro`). When creating new content, ensure generated slugs match the filename or frontmatter `slug` field.
 
 - Layouts and SEO: The main layout is `src/layouts/BaseLayout.astro`. SEO helper/component: `src/components/UI/Seo.astro`. Use the layout props (title, description, image, type, canonicalUrl) when generating pages.
 
@@ -14,7 +14,7 @@ This is an Astro-based static site starter tailored for church websites. Keep in
 
 - Styling: Tailwind utilities + `src/assets/styles/global.css`. Keep style changes small and prefer adding Tailwind classes over custom CSS unless necessary; theme config in `tailwind.config.cjs`.
 
-- Images: Stored under `public/uploads/*` (staff/events/sermons/ministries/blog). Paths in frontmatter must match these prefixes; many components rely on that convention for fallbacks and image optimization.
+- Images: Stored under `public/uploads/*` (staff/events/ministries). Paths in frontmatter must match these prefixes; many components rely on that convention for fallbacks and image optimization.
 
 - Build & deploy commands (from `package.json`):
 

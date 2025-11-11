@@ -3,6 +3,7 @@
 An open-source starter template for building high-performance, content-driven church websites with Astro. Pure SSG, SEO-ready, built with Tailwind CSS, Markdown content, ready to integrate with any CMS
 
 ## Demo and Screenshot
+
 ![Home Page](https://imgs.maucariapa.com/uploads/452546054-84337aa6-eea8-4879-9461-d2e7d3665aee.png)
 
 Demo URL: [https://maucariapacom-church-starter.pages.dev](https://maucariapacom-church-starter.pages.dev/)
@@ -25,12 +26,10 @@ Demo URL: [https://maucariapacom-church-starter.pages.dev](https://maucariapacom
 ```
 maucariapacom-church-starter/
 ├── public/
-│   ├── uploads/          # Images directories (staff, events, sermons, etc.)
+│   ├── uploads/          # Images directories
 │   │   ├── staff/        # Staff profile images
 │   │   ├── events/       # Event images
-│   │   ├── sermons/      # Sermon thumbnail images
 │   │   ├── ministries/   # Ministry logo images
-│   │   └── blog/         # Blog post images
 │   ├── favicon.svg
 │   ├── robots.txt
 │   └── site.webmanifest
@@ -44,9 +43,7 @@ maucariapacom-church-starter/
 │   │   ├── config.ts     # Collection schemas
 │   │   ├── staff/        # Staff member profiles
 │   │   ├── events/       # Church events
-│   │   ├── sermons/      # Sermon content
 │   │   ├── ministries/   # Ministry descriptions
-│   │   ├── blog/         # Blog posts
 │   │   └── siteInfo/     # Site configuration content
 │   ├── layouts/          # Page layouts
 │   ├── pages/            # Astro pages
@@ -66,17 +63,20 @@ maucariapacom-church-starter/
 ### Installation
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/MauCariApa-com/maucariapacom-church-starter.git
    cd maucariapacom-church-starter
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -134,31 +134,6 @@ draft: false
 Join us for an exciting week of activities, worship, and spiritual growth...
 ```
 
-#### Creating a New Sermon
-
-1. Create a new file in `src/content/sermons/` with a `.md` extension
-2. Add the required frontmatter fields:
-
-```markdown
----
-title: "Walking in Faith"
-date: 2025-02-02
-speaker: "Rev. Dr. John Smith"
-series: "Faith Foundations"
-scripture: "Proverbs 3:5-6"
-audioUrl: "https://example.com/sermons/walking-in-faith.mp3"
-videoUrl: "https://www.youtube.com/embed/example789"
-image: "/uploads/sermons/walking-in-faith.webp"
-summary: "Learn how to trust God completely and walk confidently in His plan."
-tags: ["faith", "trust", "guidance"]
-draft: false
----
-
-## Sermon Overview
-
-Content of your sermon goes here...
-```
-
 ### Content Schema
 
 See `src/content/config.ts` for the complete schema definitions for all content types.
@@ -166,20 +141,18 @@ See `src/content/config.ts` for the complete schema definitions for all content 
 ## Key Pages and Features
 
 ### Main Pages
-- **Homepage** (`/`): Hero section, service times, about preview, recent events/sermons
+
+- **Homepage** (`/`): Hero section, service times, about preview, recent events
 - **About Us** (`/about-us`): Mission, values, history, staff preview
 - **Staff** (`/staff`): Complete staff directory with contact information
 - **Ministries** (`/ministries`): All church ministries with detailed pages
-- **Sermons** (`/sermons`): Sermon archive with audio/video support and filtering
 - **Events** (`/events`): Upcoming and past events with registration support
-- **Blog** (`/blog`): Church blog with filtering and search
-- **I'm New** (`/im-new`): First-time visitor information
 - **Contact** (`/contact`): Contact forms, location, staff contacts
 - **Giving** (`/giving`): Online giving information and financial transparency
 
 ### Special Features
+
 - **Responsive Design**: Mobile-first approach with proper breakpoints
-- **Content Filtering**: Advanced filtering on sermons and blog posts
 - **SEO Optimization**: Complete meta tags, JSON-LD schema, and sitemap
 - **Accessibility**: WCAG compliant with proper ARIA labels and keyboard navigation
 - **Performance**: Optimized images and fast loading times
@@ -215,11 +188,10 @@ The template includes a built-in church SVG icon that's used throughout the site
 ### Images
 
 Images are organized in the `/public/uploads/` directory:
+
 - `/uploads/staff/` - Staff profile images
 - `/uploads/events/` - Event images
-- `/uploads/sermons/` - Sermon thumbnails
 - `/uploads/ministries/` - Ministry logos
-- `/uploads/blog/` - Blog post images
 
 The template includes fallback handling for missing images and uses external Unsplash images for some sections.
 
@@ -230,6 +202,7 @@ This starter is designed to work well with these headless CMS solutions:
 ### TinaCMS
 
 1. Install TinaCMS:
+
    ```bash
    npm install tinacms @tinacms/cli
    ```
@@ -262,11 +235,13 @@ This site can be deployed to any static hosting platform:
 ### GitHub Pages
 
 1. Install gh-pages:
+
    ```bash
    npm install -D gh-pages
    ```
 
 2. Add deploy script to package.json:
+
    ```json
    "scripts": {
      "deploy": "npm run build && gh-pages -d dist"
@@ -305,7 +280,7 @@ For questions, issues, or contributions, please visit our GitHub repository or c
 
 ## Donate
 
-Love our work? 
+Love our work?
 
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/kodester/)
 
