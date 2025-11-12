@@ -4,9 +4,16 @@ This file collects actionable tasks we discussed in the chat and a couple of ext
 
 ## To-Do List
 
-- [ ] Structure of page according to PDF until AGW events
+- [x] Structure of page according to PDF until AGW events
 
-  - Create schedule layout or event-series page aggregating items with the Allianz tag/series.
+  - more events (placeholder)
+  - "Weitere Events"
+  - Christliche Jugend (Ministires?)
+
+- [ ] more elements:
+
+  - "Ansprechpartner & Leitungsteam"
+  - Spenden
 
 - [ ] Update fonts and colors to align better with Evangelische Allianz in Deutschland e.V. branding.
 
@@ -19,8 +26,11 @@ This file collects actionable tasks we discussed in the chat and a couple of ext
 - [ ] Questions to clarify with customer
 
   - Confirm content priority from `EAH Webseite Planung.pdf`, logo/hero image sources and formats, registration/payment requirements, timezone/recurrence rules, and localization needs.
+  - was sind "Nächste Allianz-Treffen" ?
+  - Zugehörige Gemeinden & Organisationen -> Subsumieren in Ministries?
   - Localization: will the site be multi-lingual? If so we should plan content file naming and routing.
   - Logo, Hero Image
+  - Datenschutz / Impressum: Who is responsible?
 
 - [ ] Logo: gather & add to site
 
@@ -56,12 +66,19 @@ This file collects actionable tasks we discussed in the chat and a couple of ext
 
 - [ ] Timezones and date display: confirm display format and timezone handling for event dates in the UI.
 
+  - Event display: Show weekday names (e.g., "Monday, January 1, 2024")
+
 - [ ] Update robots.txt to point to correct sitemap location.
 
 - [ ] Hero image in event slug pages
 
   - change to using Evangelische Allianz branding image
   - see <PostLayout.astro>
+
+- [ ] Impressum & Datenschutz pages
+
+  - Create static pages with legal text;
+  - link in footer.
 
 ## Done
 
